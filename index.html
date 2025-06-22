@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spider-Verse</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <header class="header">
+        <div class="header__logo">Spider-Verse</div>
+        <nav class="header__nav">
+            <a href="#carrossel">Personagens</a>
+            <a href="#cards">Universos</a>
+            <a href="internal.html">Galeria</a>
+        </nav>
+    </header>
+
+    <main>
+        <section class="banner">
+            <h1 class="banner__title">Bem-vindo ao Multiverso Spider-Man</h1>
+        </section>
+
+        <section id="carrossel" class="carousel">
+            <h2 class="carousel__title">Escolha Seu Spider</h2>
+            <div class="carousel__container" id="carousel">
+                <!-- Itens do carrossel -->
+                <div class="carousel__item">Miles</div>
+                <div class="carousel__item">Gwen</div>
+                <div class="carousel__item">Peter</div>
+                <div class="carousel__item">Spider Noir</div>
+                <div class="carousel__item">Peni Parker</div>
+                <div class="carousel__item">2099</div>
+            </div>
+            <div class="carousel__buttons">
+                <button id="prev">&#8592;</button>
+                <button id="next">&#8594;</button>
+            </div>
+        </section>
+
+        <section id="cards" class="cards">
+            <h2 class="cards__title">Universos</h2>
+            <div class="cards__container">
+                <div class="cards__item">
+                    <h3>Terra-1610</h3>
+                    <p>Universo de Miles Morales.</p>
+                </div>
+                <div class="cards__item">
+                    <h3>Terra-65</h3>
+                    <p>Universo da Spider-Gwen.</p>
+                </div>
+                <div class="cards__item">
+                    <h3>Terra-616</h3>
+                    <p>Universo clássico de Peter Parker.</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="form">
+            <h2 class="form__title">Junte-se ao Spider-Verse</h2>
+            <form id="joinForm">
+                <input type="text" id="name" placeholder="Seu nome" required>
+                <input type="email" id="email" placeholder="Seu email" required>
+                <button type="submit">Entrar no Portal</button>
+            </form>
+        </section>
+    </main>
+
+    <footer class="footer">
+        © 2025 Spider-Verse | Todos os direitos reservados.
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
